@@ -117,7 +117,7 @@ export default function Footer() {
           </motion.div>
 
           {/* Contact & Social */}
-          <motion.div
+           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
@@ -163,14 +163,15 @@ export default function Footer() {
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => scrollToSection('contact')}
+                onClick={( ) => scrollToSection('contact')}
                 className="w-full bg-gradient-gold text-black py-2 px-4 rounded-lg font-medium text-sm hover:shadow-lg transition-all duration-300"
               >
                 Entrar em Contato
               </motion.button>
-          </motion.div>
-        </div>
-      </div>
+            </motion.div>
+          </motion.div> {/* <-- CORRIGIDO: Fechando a motion.div de "Contact & Social" */}
+        </div> {/* <-- Fechando a div do "grid" */}
+      </div> {/* <-- Fechando a div do "Main Footer Content" */}
 
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
