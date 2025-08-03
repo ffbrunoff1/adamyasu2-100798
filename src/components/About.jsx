@@ -85,15 +85,15 @@ export default function About() {
             >
               <div className="prose prose-lg text-gray-700 leading-relaxed">
                 <p className="text-xl mb-6">
-                  Adam Yasu é um escritor motivacional que acredita no poder
-                  transformador dos desejos humanos. Sua obra é um convite à
-                  reflexão e ao crescimento pessoal.
+                  Adam Yasu Ã© um escritor motivacional que acredita no poder
+                  transformador dos desejos humanos. Sua obra Ã© um convite Ã 
+                  reflexÃ£o e ao crescimento pessoal.
                 </p>
 
                 <p className="mb-6">
-                  Com uma abordagem única que combina psicologia, filosofia e
-                  experiências de vida, Adam guia seus leitores através de
-                  jornadas de autodescoberta e realização pessoal.
+                  Com uma abordagem Ãºnica que combina psicologia, filosofia e
+                  experiÃªncias de vida, Adam guia seus leitores atravÃ©s de
+                  jornadas de autodescoberta e realizaÃ§Ã£o pessoal.
                 </p>
               </div>
 
@@ -104,7 +104,7 @@ export default function About() {
                 transition={{ delay: 0.6, duration: 0.6 }}
                 className="border-l-4 border-accent-gold pl-6 italic text-lg text-gray-600 font-serif"
               >
-                "O desejo é o primeiro passo para a realização. Acredite no
+                "O desejo Ã© o primeiro passo para a realizaÃ§Ã£o. Acredite no
                 poder dos seus sonhos."
               </motion.blockquote>
             </motion.div>
@@ -120,21 +120,21 @@ export default function About() {
                 {
                   icon: Target,
                   title: 'Foco em Resultados',
-                  description: 'Estratégias práticas para transformação',
+                  description: 'EstratÃ©gias prÃ¡ticas para transformaÃ§Ã£o',
                 },
                 {
                   icon: Lightbulb,
                   title: 'Insights Profundos',
-                  description: 'Reflexões que geram mudanças reais',
+                  description: 'ReflexÃµes que geram mudanÃ§as reais',
                 },
                 {
                   icon: Award,
-                  title: 'Experiência',
+                  title: 'ExperiÃªncia',
                   description: 'Anos de estudo em desenvolvimento pessoal',
                 },
                 {
                   icon: BookOpen,
-                  title: 'Metodologia Única',
+                  title: 'Metodologia Ãnica',
                   description: 'Abordagem inovadora e eficaz',
                 },
               ].map((feature, index) => (
@@ -171,7 +171,7 @@ export default function About() {
                 }
                 className="bg-gradient-gold text-black px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
               >
-                Conheça Minha Obra
+                ConheÃ§a Minha Obra
               </motion.button>
             </motion.div>
           </motion.div>
