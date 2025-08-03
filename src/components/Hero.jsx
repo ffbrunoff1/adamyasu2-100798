@@ -58,7 +58,7 @@ export default function Hero() {
               className="text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-lg"
             >
               Descubra o poder que existe em cada desejo e comece sua jornada de
-              transformaÃ§Ã£o pessoal com{' '}
+              transformação pessoal com{' '}
               <span className="text-accent-gold font-semibold">Adam Yasu</span>.
             </motion.p>
 
@@ -92,7 +92,7 @@ export default function Hero() {
                 }
                 className="border-2 border-white/30 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 backdrop-blur-sm transition-all duration-300"
               >
-                ConheÃ§a o Autor
+                Conheça o Autor
               </motion.button>
             </motion.div>
 
@@ -105,8 +105,8 @@ export default function Hero() {
             >
               {[
                 { number: '1+', label: 'Livro Publicado' },
-                { number: '5â', label: 'AvaliaÃ§Ãµes' },
-                { number: '100%', label: 'TransformaÃ§Ã£o' },
+                { number: '5★', label: 'Avaliações' },
+                { number: '100%', label: 'Transformação' },
               ].map((stat, index) => (
                 <motion.div
                   key={index}

@@ -57,7 +57,7 @@ export default function Contact() {
         setSubmitStatus('error');
       }
     } catch (error) {
-      console.error('Erro ao enviar formulÃ¡rio:', error);
+      console.error('Erro ao enviar formulário:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -91,8 +91,8 @@ export default function Contact() {
           </h2>
 
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Tem alguma dÃºvida sobre o livro ou deseja compartilhar sua jornada
-            de transformaÃ§Ã£o? Adoraria ouvir de vocÃª!
+            Tem alguma dúvida sobre o livro ou deseja compartilhar sua jornada
+            de transformação? Adoraria ouvir de você!
           </p>
         </motion.div>
 
@@ -194,7 +194,7 @@ export default function Contact() {
                     required
                     rows={5}
                     className="w-full bg-white/10 border border-white/20 rounded-lg pl-12 pr-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-accent-gold focus:border-transparent transition-all duration-300 resize-none"
-                    placeholder="Conte-me sobre sua jornada ou faÃ§a suas perguntas..."
+                    placeholder="Conte-me sobre sua jornada ou faça suas perguntas..."
                   />
                 </div>
               </motion.div>
@@ -276,8 +276,8 @@ export default function Contact() {
               className="bg-gradient-to-r from-accent-gold/20 to-accent-blue/20 rounded-2xl p-8 backdrop-blur-sm border border-white/10"
             >
               <blockquote className="text-2xl font-serif italic text-center mb-6">
-                "Cada mensagem Ã© uma oportunidade de conexÃ£o e crescimento
-                mÃºtuo."
+                "Cada mensagem é uma oportunidade de conexão e crescimento
+                mútuo."
               </blockquote>
               <div className="text-center text-accent-gold font-semibold">
                 - Adam Yasu
@@ -306,8 +306,8 @@ export default function Contact() {
               </motion.a>
 
               <p className="text-gray-300 mt-4 text-sm">
-                Acompanhe reflexÃµes diÃ¡rias e conteÃºdos inspiradores sobre
-                transformaÃ§Ã£o pessoal
+                Acompanhe reflexões diárias e conteúdos inspiradores sobre
+                transformação pessoal
               </p>
             </motion.div>
 
