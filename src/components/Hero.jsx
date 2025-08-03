@@ -47,7 +47,7 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-5xl lg:text-7xl font-serif font-bold leading-tight"
             >
-              Torne... seus <span className="gradient-text">desejos</span> realidade
+              Torne seus <span className="gradient-text">desejos</span> realidade
             </motion.h1>
 
             <motion.p
