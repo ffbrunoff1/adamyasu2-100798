@@ -40,7 +40,7 @@ export default function Footer() {
             </motion.div>
             
             <p className="text-gray-300 leading-relaxed max-w-sm">
-              Escritor motivacional dedicado a ajudar pessoas a transformarem seus desejos em realidades atravÃ©s de reflexÃ£o e crescimento pessoal.
+              Escritor motivacional
             </p>
 
             <motion.blockquote
