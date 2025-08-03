@@ -45,7 +45,7 @@ export default function Services() {
           </h2>
 
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Uma obra envolvente que mergulha nas profundezas das emoções humanas
+            Uma obra envolvente que mergulha nas profundezas das emoÃ§Ãµes humanas
           </p>
         </motion.div>
 
@@ -125,18 +125,18 @@ export default function Services() {
               className="space-y-6"
             >
               <p className="text-lg text-gray-700 leading-relaxed">
-                O Peso do Desejo é uma obra envolvente que mergulha nas
-                profundezas das emoções humanas, explorando os limites entre
-                amor, obsessão e sacrifício. A narrativa cativa ao apresentar
+                O Peso do Desejo Ã© uma obra envolvente que mergulha nas
+                profundezas das emoÃ§Ãµes humanas, explorando os limites entre
+                amor, obsessÃ£o e sacrifÃ­cio. A narrativa cativa ao apresentar
                 personagens complexos e dilemas emocionais reais, levando o
-                leitor a refletir sobre suas próprias escolhas e desejos.
+                leitor a refletir sobre suas prÃ³prias escolhas e desejos.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
                 Ao longo do livro, o autor habilmente tece uma trama repleta de
                 reviravoltas e momentos de intenso suspense. Ideal para quem
                 busca uma leitura emocionante e enriquecedora que provoca
-                reflexão e autoconhecimento.
+                reflexÃ£o e autoconhecimento.
               </p>
 
               {/* Quote */}
@@ -147,8 +147,8 @@ export default function Services() {
                 className="bg-gray-50 border-l-4 border-accent-gold pl-6 py-4 italic text-lg text-gray-600 font-serif rounded-r-lg"
               >
                 <Quote className="inline text-accent-gold mb-2" size={20} />
-                "Uma jornada transformadora que mudará sua perspectiva sobre
-                desejos e realizações."
+                "Uma jornada transformadora que mudarÃ¡ sua perspectiva sobre
+                desejos e realizaÃ§Ãµes."
               </motion.blockquote>
             </motion.div>
 
@@ -163,7 +163,7 @@ export default function Services() {
                 { icon: Heart, text: 'Emocionalmente Envolvente' },
                 { icon: Eye, text: 'Reviravoltas Surpreendentes' },
                 { icon: Sparkles, text: 'Autoconhecimento' },
-                { icon: Star, text: 'Transformação Pessoal' },
+                { icon: Star, text: 'TransformaÃ§Ã£o Pessoal' },
               ].map((feature, index) => (
                 <motion.div
                   key={index}
@@ -228,16 +228,16 @@ export default function Services() {
               <span className="gradient-text">O Peso do Desejo</span>?
             </h3>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              Descubra os benefícios únicos desta obra transformadora
+              Descubra os benefÃ­cios Ãºnicos desta obra transformadora
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Reflexão Profunda',
+                title: 'ReflexÃ£o Profunda',
                 description:
-                  'Explore suas emoções e desejos mais íntimos através de uma narrativa envolvente',
+                  'Explore suas emoÃ§Ãµes e desejos mais Ã­ntimos atravÃ©s de uma narrativa envolvente',
                 icon: Heart,
               },
               {
@@ -247,9 +247,9 @@ export default function Services() {
                 icon: Sparkles,
               },
               {
-                title: 'Inspiração Duradoura',
+                title: 'InspiraÃ§Ã£o Duradoura',
                 description:
-                  'Encontre motivação para transformar seus desejos em ações concretas',
+                  'Encontre motivaÃ§Ã£o para transformar seus desejos em aÃ§Ãµes concretas',
                 icon: Star,
               },
             ].map((benefit, index) => (
