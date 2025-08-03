@@ -72,7 +72,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={scrollToServices}
-                className="group bg-gradient-gold text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-accent-gold/50 transition-all duration-300 flex items-center justify-center space-x-2"
+                className="group bg-gradient-dark text-white px-8 py-4 rounded-full font-bold text-lg shadow-2xl hover:shadow-xl transition-all duration-300 flex items-center justify-center space-x-2"
               >
                 <BookOpen size={24} />
                 <span>Adquirir O Peso do Desejo</span>
