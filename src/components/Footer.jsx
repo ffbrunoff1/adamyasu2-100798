@@ -40,7 +40,7 @@ export default function Footer() {
             </motion.div>
             
             <p className="text-gray-300 leading-relaxed max-w-sm">
-              Escritor motivacional
+              Escritor motivacional dedicado a ajudar pessoas a transformarem seus desejos em realidades através de reflexão e crescimento pessoal.
             </p>
 
             <motion.blockquote
@@ -49,7 +49,7 @@ export default function Footer() {
               transition={{ delay: 0.3, duration: 0.6 }}
               className="italic text-accent-gold border-l-2 border-accent-gold pl-4"
             >
-              "O desejo Ã© o primeiro passo para a realizaÃ§Ã£o."
+              "O desejo é o primeiro passo para a realização."
             </motion.blockquote>
           </motion.div>
 
@@ -59,7 +59,7 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1, duration: 0.6 }}
           >
-            <h3 className="text-xl font-bold mb-6 text-accent-gold">NavegaÃ§Ã£o</h3>
+            <h3 className="text-xl font-bold mb-6 text-accent-gold">Navegação</h3>
             <ul className="space-y-4">
               {[
                 { name: 'Sobre Adam', id: 'about' },
@@ -101,14 +101,14 @@ export default function Footer() {
                   <div>
                     <h4 className="font-semibold mb-2">O Peso do Desejo</h4>
                     <p className="text-sm text-gray-400 leading-relaxed">
-                      Uma obra envolvente sobre emoÃ§Ãµes humanas, amor, obsessÃ£o e sacrifÃ­cio.
+                      Uma obra envolvente sobre emoções humanas, amor, obsessão e sacrifício.
                     </p>
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       onClick={() => scrollToSection('services')}
                       className="text-accent-gold text-sm font-medium mt-2 hover:underline"
                     >
-                      Saiba mais â
+                      Saiba mais →
                     </motion.button>
                   </div>
                 </div>
@@ -158,7 +158,7 @@ export default function Footer() {
                 Inspire-se diariamente
               </h4>
               <p className="text-sm text-gray-400 mb-4">
-                ReflexÃµes e conteÃºdos sobre transformaÃ§Ã£o pessoal
+                Reflexões e conteúdos sobre transformação pessoal
               </p>
               <motion.button
                 whileHover={{ scale: 1.02 }}
@@ -185,7 +185,7 @@ export default function Footer() {
               className="text-sm text-gray-400 text-center md:text-left"
             >
               <p>
-                Â© 2024 Adam Yasu. Todos os direitos reservados. |{' '}
+                © 2024 Adam Yasu. Todos os direitos reservados. |{' '}
                 <span className="text-accent-gold">Transformando desejos em realidade</span>
               </p>
             </motion.div>
