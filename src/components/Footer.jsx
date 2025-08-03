@@ -168,7 +168,6 @@ export default function Footer() {
               >
                 Entrar em Contato
               </motion.button>
-            </div>
           </motion.div>
         </div>
       </div>
